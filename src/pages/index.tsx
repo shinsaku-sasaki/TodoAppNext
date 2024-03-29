@@ -1,7 +1,7 @@
 import AvatarMenu from "@/components/AvatarMenu";
 import SignIn from "@/components/SignIn";
 import TodoContents from "@/components/TodoContents";
-import { Box, Spinner } from "@chakra-ui/react";
+import { Box, Center, Spinner } from "@chakra-ui/react";
 import { useSession } from "next-auth/react";
 import Head from "next/head";
 
@@ -27,7 +27,9 @@ export default function Home() {
           ) : status === "unauthenticated" ? (
             <SignIn />
           ) : (
-            <Spinner />
+            <Center h="100vh">
+              <Spinner />
+            </Center>
           )}
         </Box>
       </main>
