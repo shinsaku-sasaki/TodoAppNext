@@ -1,0 +1,17 @@
+# Vercel Postgres
+POSTGRES_URL="xxxxxxx"
+POSTGRES_PRISMA_URL="xxxxxxx"
+POSTGRES_URL_NO_SSL="xxxxxxx"
+POSTGRES_URL_NON_POOLING="xxxxxxx"
+POSTGRES_USER="default"
+POSTGRES_HOST="xxxxxxx"
+POSTGRES_PASSWORD="xxxxxxx"
+POSTGRES_DATABASE="verceldb"
+
+# 認証情報
+NEXTAUTH_URL="https://localhost:3000" # 本番環境では不要
+NEXTAUTH_SECRET="xxxxxxx"
+
+# 各種プロバイダー
+GITHUB_ID="xxxxxxx"
+GITHUB_SECRET="xxxxxxxx"
